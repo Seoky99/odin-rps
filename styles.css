@@ -1,0 +1,94 @@
+/* HEADER */ 
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black; 
+}
+
+.outer {
+  display: flex; 
+  flex-direction: column; 
+}
+
+
+.container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+#img {
+  width: 300px; 
+  height: auto; 
+}
+
+#title {
+  font-family: 'Monoton', cursive;
+  color: yellow; 
+  margin: 10px 0px 0px 0px; 
+}
+
+#caption {
+  font-size: 20px; 
+  color: white; 
+  text-align: center; 
+  margin:0px 0px 10px 0px;
+}
+
+/* BUTTONS */
+
+.buttons {
+  margin-top: 30px; 
+  display:flex; 
+  justify-content: center;
+  gap: 100px;  
+}
+
+.btn {
+  width: 150px; 
+  height: 150px; 
+}
+
+.rock {
+  background: url('rock.png') no-repeat lightcoral;
+  background-size: 100%;
+}
+
+.btn.rock {
+  border: 10px solid lightcoral; 
+}
+
+.paper {
+  background: url('paper.png') no-repeat lightgreen;
+  background-size: 100%;
+}
+
+.btn.paper {
+  border: 10px solid lightgreen; 
+}
+
+.scissors {
+  background: url('scissors.png') no-repeat lightblue;
+  background-size: 100%;
+}
+
+.btn.scissors{
+  border: 10px solid lightblue; 
+}
+
+/* COMPUTER */
+
+.computerChoice {
+  margin: 10px 0px 10px 0px; 
+  display:flex; 
+  justify-content: center;
+  gap: 100px;  
+}
+
+.cmpbtn {
+  width: 150px; 
+  height: 150px; 
+  background-color:red; 
+  border: 10px solid red; 
+}
